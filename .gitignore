@@ -1,0 +1,14 @@
+# Local Google OAuth configuration
+manifest.local.json
+*.local.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node tooling
+node_modules/
+npm-debug.log*
+

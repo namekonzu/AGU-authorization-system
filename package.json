@@ -1,0 +1,12 @@
+{
+  "name": "agu-authorization-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AGU Authorization Helper Chrome extension",
+  "scripts": {
+    "test": "node --test tests/email-parser.test.js tests/gmail.test.js tests/service-worker.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

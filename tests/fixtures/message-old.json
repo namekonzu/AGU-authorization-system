@@ -1,0 +1,14 @@
+{
+  "id": "old-message",
+  "internalDate": "1699999000000",
+  "payload": {
+    "mimeType": "text/plain",
+    "headers": [
+      { "name": "From", "value": "AOYAMA-portal <agsso-noreply@aoyamagakuin.jp>" },
+      { "name": "Subject", "value": "ログイン認証" }
+    ],
+    "body": {
+      "data": "6Z2S5bGx5a2m6ZmiIOOBi-OCieOBruODoeODvOODq-OBp-OBmeOAggoK6KqN6Ki855Wq5Y-344GvIDYzNzIzNyDjgafjgZnjgIIKCuOCguOBl-W_g-W9k-OBn-OCiuOBruOBquOBhOWgtOWQiOOBr-OAgeODoeODvOODq-OCkuegtOajhOOBl-OBpuOBj-OBoOOBleOBhOOAgg"
+    }
+  }
+}

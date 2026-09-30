@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "AGU Authorization Helper",
+  "version": "1.0.0",
+  "description": "青山学院の認証番号をGmailから取得し、ログイン画面の入力候補として表示します。",
+  "action": {
+    "default_title": "AGU Authorization Helper",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://agsso.aoyamagakuin.jp/*"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "css": [
+        "content/suggestion.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://gmail.googleapis.com/*"
+  ],
+  "oauth2": {
+    "client_id": "244196284785-m88uqn6liuak8vr6j51e43fhe67fpi51.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly"
+    ]
+  }
+}

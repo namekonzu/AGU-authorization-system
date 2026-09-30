@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AGU Authorization Helper</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="agu-auth-helper-popup">
+      <h1>AGU Authorization Helper</h1>
+      <p class="agu-auth-helper-description">青山学院の認証番号をGmailから取得します。</p>
+
+      <section class="agu-auth-helper-account" aria-labelledby="account-title">
+        <h2 id="account-title">Google Account</h2>
+        <p id="agu-auth-helper-account-status" class="agu-auth-helper-account-status">確認中…</p>
+        <button id="agu-auth-helper-connect" class="agu-auth-helper-primary" type="button">Googleアカウントと接続</button>
+        <button id="agu-auth-helper-disconnect" class="agu-auth-helper-secondary" type="button" hidden>接続を解除</button>
+      </section>
+
+      <p id="agu-auth-helper-message" class="agu-auth-helper-message" role="status" aria-live="polite"></p>
+      <p class="agu-auth-helper-note">この拡張機能は青山学院のID・パスワードを取得しません。</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

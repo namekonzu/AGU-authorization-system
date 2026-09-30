@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  width: 300px;
+  margin: 0;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.agu-auth-helper-popup {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.agu-auth-helper-description,
+.agu-auth-helper-note,
+.agu-auth-helper-account-status,
+.agu-auth-helper-message {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.agu-auth-helper-description {
+  margin: 8px 0 18px;
+  color: #64748b;
+}
+
+.agu-auth-helper-account {
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.agu-auth-helper-account-status {
+  margin: 0 0 12px;
+  color: #475569;
+}
+
+.agu-auth-helper-popup button {
+  width: 100%;
+  min-height: 36px;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.agu-auth-helper-primary {
+  border: 1px solid #2563eb;
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.agu-auth-helper-secondary {
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #334155;
+}
+
+.agu-auth-helper-message {
+  min-height: 18px;
+  margin: 12px 0 0;
+  color: #b45309;
+}
+
+.agu-auth-helper-note {
+  margin: 16px 0 0;
+  color: #64748b;
+}

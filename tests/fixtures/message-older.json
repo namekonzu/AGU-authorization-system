@@ -1,0 +1,25 @@
+{
+  "id": "older-message",
+  "internalDate": "1700000480000",
+  "payload": {
+    "mimeType": "multipart/alternative",
+    "headers": [
+      { "name": "From", "value": "AOYAMA-portal <AGSso-noreply@aoyamagakuin.jp>" },
+      { "name": "Subject", "value": "別の件名でも本文が正しければ候補" }
+    ],
+    "parts": [
+      {
+        "mimeType": "text/plain",
+        "body": {
+          "data": "6Z2S5bGx5a2m6ZmiIOOBi-OCieOBruODoeODvOODq-OBp-OBmeOAggoK6KqN6Ki855Wq5Y-344GvIDEyMzQ1NiDjgafjgZnjgII"
+        }
+      },
+      {
+        "mimeType": "text/html",
+        "body": {
+          "data": "PHA-6Z2S5bGx5a2m6ZmiIOOBi-OCieOBruODoeODvOODq-OBp-OBmeOAgjwvcD48cD7oqo3oqLznlarlj7fjga8gOTk5OTk5IOOBp-OBmeOAgjwvcD4"
+        }
+      }
+    ]
+  }
+}

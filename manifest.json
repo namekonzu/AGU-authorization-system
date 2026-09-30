@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "青山学院の認証番号をGmailから取得し、ログイン画面の入力候補として表示します。",
 
-  "key": "ここにExtension Public Key",
+
 
   "action": {
     "default_title": "AGU Authorization Helper",

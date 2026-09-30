@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "青山学院の認証番号をGmailから取得し、ログイン画面の入力候補として表示します。",
 
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA02xfAfXtVyeNpNZv5QJID4KPJfDM3dqJSFQkyWi2uxr9JdMPHP4/jOtltlLgxbdHO3E4rrnBhiCEyxjFol4krqg1x5pqKjzYtHrZe4qRf3GCQ965edCABoS0no7zHvacqlX1ZrpBxHx7JKdiIvdX+TbpGULH8hp+dwhjjJFU2HS/4zIZlg2hFY+RqJfXKezVCdlqdoUKjOI2HVxDXvA30FUypAkf051TZXOwPV5HELvCvQ2eGuMM5H7Dhv54oub37/AR+356q63Q7YYQZi4XpMirX+1c+4GOsYVKkytnJZuTO8QHRfbaG5TjuePEmJyFXBHSMK25CUMIhnTrX84mWwIDAQAB",
+
 
   "action": {
     "default_title": "AGU Authorization Helper",

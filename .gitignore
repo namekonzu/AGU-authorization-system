@@ -2,6 +2,15 @@
 manifest.local.json
 *.local.json
 
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
+
 # OS / editor files
 .DS_Store
 Thumbs.db
@@ -11,4 +20,13 @@ Thumbs.db
 # Node tooling
 node_modules/
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+# Test / coverage output
+coverage/
+
+# Local build / release artifacts
+dist/
+*.zip
+*.crx
